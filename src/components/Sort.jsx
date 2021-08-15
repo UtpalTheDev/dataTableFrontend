@@ -7,6 +7,7 @@ export function Sort({ dispatch }) {
           dispatch({ type: "SORT_BY", payload: e.target.value });
         }}
       >
+        <option value="">Relevance</option>
         <option value="pop_asc">Population Asc</option>
         <option value="pop_desc">Population Desc</option>
         <option value="city_asc">City Asc</option>
